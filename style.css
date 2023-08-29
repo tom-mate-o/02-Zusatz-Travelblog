@@ -17,6 +17,7 @@ padding: 0; margin: 0;
 }
 body{
     background-image: linear-gradient(to right top, #0077b6, #0086c1, #0096ca, #00a5d1, #00b4d8);
+    background-attachment: fixed;
     margin: 0;
     width: 100vw;
     display: flex;
@@ -245,4 +246,27 @@ p{
 .vorschautext{
     padding-left: 10px;
     padding-right: 10px;
+}
+
+.frage{
+    background-color: var(--color3);
+    font-weight: bold;
+    border-bottom: solid var(--h-color);
+    min-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frage:hover{
+ cursor: pointer;   
+}
+
+.antwort{
+    background-color: var(--color5);
+    margin-bottom: 20px;
+}
+
+.antwortHidden{
+    display: none;
 }
